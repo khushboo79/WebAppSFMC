@@ -2,15 +2,15 @@ const FuelRest = require('fuel-rest');
 
 const options = {
   auth: {
-    clientId: process.env.SFMC_CLIENT_ID,
-    clientSecret: process.env.SFMC_CLIENT_SECRET,
+    clientId:'v8y5f40mlu5jckjyywc74t5t',
+    clientSecret: 'EBZ756iUoLKOmdZgUaUIUZQY',
     authOptions: {
       authVersion: 2,
-      accountId: process.env.SFMC_ACCOUNT_ID,
+      accountId: '514015915',
     },
-    authUrl: `https://${process.env.SFMC_SUBDOMAIN}.auth.marketingcloudapis.com/v2/token`,
+    authUrl: `https://mc6vgk-sxj9p08pqwxqz9hw9-4my.auth.marketingcloudapis.com/v2/token`,
   },
-  origin: `https://${process.env.SFMC_SUBDOMAIN}.rest.marketingcloudapis.com/`,
+  origin: `https://mc6vgk-sxj9p08pqwxqz9hw9-4my.rest.marketingcloudapis.com/`,
   globalReqOptions: {
   },
 };
